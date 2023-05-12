@@ -1,1 +1,1 @@
-# jotai-tiny
+# jotai-tiny-demo

@@ -1,4 +1,5 @@
-import { atom, useAtom, useAtomValue } from "./jotai";
+import { atom, useAtom, useAtomValue } from "jotai-tiny";
+import { GithubCorners } from "react-gh-corners";
 
 const salaryAtom = atom(100_000);
 const bonusAtom = atom(10_000);
@@ -35,6 +36,8 @@ function App() {
       <div>Total Salary: {totalSalary}</div>
       <div>Data: {JSON.stringify(data)}</div>
       <div>Keys: {JSON.stringify(keys)}</div>
+
+      <GithubCorners href="https://github.com/hunghg255/jotai-tiny" />
     </div>
   );
 }
